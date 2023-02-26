@@ -42,7 +42,11 @@ export default [{
             modulesOnly: true,
         }),
         
-        terser()
+        terser({
+            output: {
+              comments: false
+            }
+        })
     ]
 },
 ];
