@@ -1,0 +1,27 @@
+# JetBrains
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Other
+*.log
+
+# Project
+assets/
+docs/
+tests/
+.editorconfig
+CHANGELOG.md
+CONTRIBUTING.md

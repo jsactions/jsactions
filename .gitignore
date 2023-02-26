@@ -1,0 +1,26 @@
+# Packages
+node_modules/
+
+# JetBrains
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated
+docs/
+tests/coverage/
+
+# Other
+*.log
