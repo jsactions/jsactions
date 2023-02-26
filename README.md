@@ -21,6 +21,9 @@
 ## Website 
  * [https://jsactions.org](https://jsactions.org)
 
+## Social Media
+ * [Twitter](https://twitter.com/jsactions)
+
 ## About JSactions Framework 
   * [Introduction](https://jsactions.org/tutorial-introduction.html)
   * [Quickstart](https://jsactions.org/tutorial-quickstart.html)
