@@ -1,0 +1,79 @@
+{
+    "name": "jsactions",
+    "version": "1.0.0",
+    "description": "JSactions is EcmaScript6 based framework for developing enterprise web application and hybrid mobile application rapidly with less effort.",
+    "keywords": [
+        "jsactions",
+        "binding",
+        "router",
+        "view"
+    ],
+    "author": "Gaurang Lade",
+    "license": "MIT",
+    "main": "dist/jsactions.js",
+    "jsdelivr": "dist/jsactions.js",
+    "unpkg": "dist/jsactions.js",
+    "module": "dist/jsactions.esm.js",
+    "jsnext:main": "index",
+    "files": [
+        "dist"
+    ],
+    "bugs": {
+        "url": "https://github.com/jsactions/jsactions/issues"
+    },
+    "homepage": "https://github.com/jsactions/jsactions#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jsactions/jsactions.git"
+    },
+    "scripts": {
+        "test": "mocha  --require esm",
+        "build": "rollup -c",
+        "docs": "jsdoc -c jsdoc-conf.json"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.5.4",
+        "@babel/plugin-external-helpers": "^7.0.0",
+        "@babel/plugin-proposal-class-properties": "^7.5.0",
+        "@babel/plugin-proposal-decorators": "^7.4.4",
+        "@babel/plugin-proposal-do-expressions": "^7.5.0",
+        "@babel/plugin-proposal-export-default-from": "^7.5.2",
+        "@babel/plugin-proposal-export-namespace-from": "^7.5.2",
+        "@babel/plugin-proposal-function-sent": "^7.5.0",
+        "@babel/plugin-proposal-json-strings": "^7.0.0",
+        "@babel/plugin-proposal-logical-assignment-operators": "^7.0.0",
+        "@babel/plugin-proposal-nullish-coalescing-operator": "^7.4.4",
+        "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+        "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+        "@babel/plugin-proposal-pipeline-operator": "^7.5.0",
+        "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+        "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+        "@babel/plugin-syntax-import-meta": "^7.0.0",
+        "@babel/preset-env": "^7.5.4",
+        "chai": "^4.3.6",
+        "eslint": "^5.15.1",
+        "eslint-config-prettier": "^3.3.0",
+        "eslint-plugin-prettier": "^3.1.0",
+        "esm": "^3.2.25",
+        "jsdom": "^19.0.0",
+        "lint-staged": "^7.2.2",
+        "mocha": "^5.2.0",
+        "prettier": "^1.18.2",
+        "rollup": "^1.17.0",
+        "rollup-plugin-babel": "^4.3.3",
+        "rollup-plugin-commonjs": "^9.1.4",
+        "rollup-plugin-gzip": "^2.2.0",
+        "rollup-plugin-json": "^3.0.0",
+        "rollup-plugin-node-resolve": "^5.2.0",
+        "rollup-plugin-terser": "^5.1.1",
+        "source-map": "^0.6.1",
+        "source-map-support": "^0.5.6"
+    },
+    "dependencies": {
+        "docdash": "^1.1.1",
+        "docdash-actionhero": "0.0.8",
+        "jsdoc": "^3.6.11",
+        "npm": "^6.14.17",
+        "readme-md-generator": "^1.0.0"
+    }
+}

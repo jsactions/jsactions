@@ -1,0 +1,69 @@
+{
+    "source": {
+      "include": [
+        "src"
+      ],
+      "exclude": [
+        "dist",
+        "node_modules"
+      ],
+      "includePattern": ".+\\.js(doc|x)?$",
+      "excludePattern": "(^|\\/|\\\\)_"
+    },
+    "opts": {
+      "destination": "./docs",
+      "template": "node_modules/docdash-actionhero",
+      "tutorials": "./tutorials",
+      "readme": "./README.md",
+      "recurse": true,
+      "verbose": true
+    },
+    "templates": {
+      "default": {
+        "sortTutorialsByConfigOrder": true,
+        "includeDate": false,
+        "staticFiles": {
+          "include": [
+            "./tutorials/images"
+          ]
+        }
+      }
+    },
+    "plugins": [
+      "plugins/markdown"
+    ],
+    "docdash": {
+      "meta": {
+        "title": "JSactions Documentation",
+        "keyword": "JSactions Ecmascript6 Framework Docs Documentation",
+        "description": "Documentation for the JSactions framework"
+      },
+      "menu":{
+        "Main Website":{
+          "href":"https://www.jsactions.org",
+          "target":"_blank",
+          "class":"menu-item",
+          "id":"website_link"
+        },
+        "Twitter":{
+          "href":"https://www.twitter.com/jsactions",
+          "target":"_blank",
+          "class":"menu-item",
+          "id":"forum_link"
+        },
+        "Github":{
+            "href":"https://www.github.com/jsactions",
+            "target":"_blank",
+            "class":"menu-item",
+            "id":"forum_link"
+          }
+      },
+      "search": false,
+      "collapse": true,
+      "typedefs": false,
+      "sectionOrder": [
+        "Tutorials",
+        "Classes"
+      ]
+    }
+  }
