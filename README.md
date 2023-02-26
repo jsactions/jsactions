@@ -80,7 +80,7 @@ npm run build
 
 👤 **Gaurang Lade**
 
-* Github: [@jsactions](https://github.com/jsactions) 
+* Github: [@jsactions](https://github.com/jsactions/jsactions) 
 
 ## 🤝 Contributing
 
