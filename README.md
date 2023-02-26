@@ -18,43 +18,67 @@
 
 ### 🏠 [Homepage](https://github.com/jsactions/jsactions#readme)
 
+## Website 
+ * [https://jsactions.org](https://jsactions.org)
+
+## About JSactions Framework 
+  * [Introduction](https://jsactions.org/tutorial-introduction.html)
+  * [Quickstart](https://jsactions.org/tutorial-quickstart.html)
+  * [JSactions Framework Unpkg URL](https://www.unpkg.com/@jsactionsframework/jsactions@latest/dist/jsactions.js)
+  * [JSactions Framework Minified Unpkg URL](https://www.unpkg.com/@jsactionsframework/jsactions@latest/dist/jsactions.min.js)
+  * [JSactions Framework NPM URL](https://www.npmjs.com/package/@jsactionsframework/jsactions)
+  * Current Version : 1.0.2
+  * [Documentation & Tutorial](https://jsactions.org/index.html)
+
+## JSactions App starter 
+  * [JSactions App starter Demo](https://jsactions.org/jsactions-app-starter/index.html)
+  * [JSactions App starter Code Respository](https://github.com/jsactions/jsactions-app-starter)
+  * [Tutorial : Creating HelloWorldApp](https://jsactions.org/tutorial-understandhelloworld.html)
+
+
+## Why Another Javascript Framework 
+* Current Javascript frameworks such as React and Angular requires browser extension to debug . Browser extension is high security risk.
+* This framework derived from Adobe Flex and Actionscript, most of enteprises used Adobe Flex and Actionscript for developing complex front end applications.
+* Supports Page driven as well as component driven development.
+* Framework designed to use only javascript, HTML, CSS which support by most of browsers. 
+
 ## Features
-		1. MV* Framework
-		2. Pure Vanilla Javascript ECMA6 Support
-		3. Can Integrate well with any CSS Framework and supports Bootstrap and Semantic UI CSS
-		4. Easily extendible functionality
-		5. Separate HTML design and behavior to give comfort to Designer and Developer.
-		6. Supports Es6 HTML Template Literals with Event Binding
-		7. Provision for Memory Management through create and destroy method.
+* MV* Framework
+* Pure Vanilla Javascript ECMA6 Support
+* Can Integrate well with any CSS Framework and supports Bootstrap and Semantic UI CSS
+* Easily extendible functionality
+* Separate HTML design and behavior to give comfort to Designer and Developer.
+* Supports Es6 HTML Template Literals with Event Binding
+* Provision for Memory Management through create and destroy method.
     
 ## Routing and Navigations :
-		1. Have ViewManager, Navigators, ViewStack and View for Simple and Complex routing and View Management.
-		2. Supports multiple Independent History Stacks. 
-		3. Support Various Navigation Schemes out of Box 
-		4. Path and Event Based Routing to support multiple View Updates simultaneously.
+* Have ViewManager, Navigators, ViewStack and View for Simple and Complex routing and View Management.
+* Supports multiple Independent History Stacks. 
+* Support Various Navigation Schemes out of Box 
+* Path and Event Based Routing to support multiple View Updates simultaneously.
 
 ## Event Management : 
-		1. Centralize Event Broadcaster to support loosely connected component
-		2. Reference any HTML Element in code by css class based ID with scope of view reference to avoid memory leaks and Unique ID or RandomID generations.
+* Centralize Event Broadcaster to support loosely connected component
+* Reference any HTML Element in code by css class based ID with scope of view reference to avoid memory leaks and Unique ID or RandomID generations.
 
 ## Templates: 
-    Support ECMA script 6 templates. Can be use with Any CSS framework such Bootstrap, Semantic UI .
+* Support ECMA script 6 templates. Can be use with Any CSS framework such Bootstrap, Semantic UI .
 
 ## Navigator Components
-   Tab Navigator, SideBar Navigator, TopBar Navigator, Simple Navigator.
+* Tab Navigator, SideBar Navigator, TopBar Navigator, Simple Navigator.
                                 
 ## Binding : One-way and Two-way binding with Just single statement 
-		  1. HTML Element to Html Element
-		  2. HTML Element to JavaScript Object
-		  3. JavaScript Object to JavaScript Object
-		  4. Support chain binding
-	      5. Input Element binds to->Model Object binds to -> Label Element
-		  6. Custom property binding and event to trigger binding event.
-		  7. Model to view binding
-		  8. Prevent Memory Leak
-      
+* HTML Element to Html Element
+* HTML Element to JavaScript Object
+* JavaScript Object to JavaScript Object
+* Support chain binding
+* Input Element binds to->Model Object binds to -> Label Element
+* Custom property binding and event to trigger binding event.
+* Model to view binding
+* Prevent Memory Leak
+
 ## Learning Curve: 
-Very Less.
+* Very Less.
 ## Customization: 
 Highly customizable. 
 
@@ -93,5 +117,6 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2023 [Gaurang Lade](https://github.com/jsactions).<br />
+Website [https://jsactions.org/index.html](https://jsactions.org/index.html).<br />
 This project is [MIT](https://github.com/jsactions/jsactions/blob/master/LICENSE) licensed.
 
