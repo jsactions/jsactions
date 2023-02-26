@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to JSactions </h1>
 <p>
-  <a href="https://www.npmjs.com/package/jsactions" target="_blank">
+  <a href="https://www.npmjs.com/package/@jsactionsframework/jsactions" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/jsactions.svg">
   </a>
   <a href="https://github.com/jsactions/jsactions#readme" target="_blank">
@@ -61,13 +61,19 @@ Highly customizable.
 ## Install
 
 ```sh
-npm install jsactions
+npm install @jsactionsframework/jsactions
 ```
 
 ## Run tests
 
 ```sh
 npm run test
+```
+
+## Run build
+
+```sh
+npm run build
 ```
 
 ## Author

@@ -1,5 +1,5 @@
 {
-    "name": "jsactions",
+    "name": "@jsactionsframework/jsactions",
     "version": "1.0.0",
     "description": "JSactions is EcmaScript6 based framework for developing enterprise web application and hybrid mobile application rapidly with less effort.",
     "keywords": [
